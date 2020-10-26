@@ -309,10 +309,10 @@ print(metrics.classification_report(y_test_v, y_pred_v))
 
 # -------------- Question 3 ----------------
 
-consumer_key = 'DX8snsfc5tS1HZLwh3Smv5kIm'
-consumer_secret = 'jFgJa36aCy81BwDoVQaV2KXORILBqZytbj18f7F68yctBhAZ5v'
-access_token = '915695525747359744-YhdmKVnD85PmOZFhCrs9Je3WZvORq58'
-access_secret = '3wfubaVXRnI3uEfl3k7ZSUgz2bPrkJDe0VSlXuhAzqEmu'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_secret = ''
 
 auth = OAuthHandler(consumer_key,consumer_secret)
 auth.set_access_token(access_token,access_secret)
